@@ -113,7 +113,7 @@ def handle(msg):
                                  [KeyboardButton(text=morse[key_1]), KeyboardButton(text=morse[key_2])],
                                  [KeyboardButton(text=morse[key_3]), KeyboardButton(text=morse[key_4])]
                             ],
-                            resize_keyboard=True, one_time_keyboard=True
+                            resize_keyboard=True, one_time_keyboard=False
                         ))
 
 
