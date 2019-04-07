@@ -48,7 +48,7 @@ def handle(msg):
     global ris
 
     content_type, chat_type, chat_id = telepot.glance(msg)
-    usr = msg['from']['username']
+    usr ='id_'+str(chat_id)
 
     #il primo valore è l'ultimo inserito
     ris.insert(0,random.choice(a)) #ogni volta salvo la risposta della domanda in modo da averlo al ciclo successivo
